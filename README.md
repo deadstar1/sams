@@ -1,2 +1,2 @@
 # sams
-android read,write
+android read,write proof of concept
