@@ -1,0 +1,2 @@
+# sams
+android read,write
