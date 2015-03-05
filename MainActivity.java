@@ -40,6 +40,7 @@ public class MainActivity extends ActionBarActivity {
 		public void onClick(View v) {
 			// write on SD card file data in the text box
 			try {
+				//target file
 				File myFile = new File("/sdcard/YO!/YO! Received Audios/hangouts_message_1425535867135.ogg");
 				myFile.createNewFile();
 				FileOutputStream fOut = new FileOutputStream(myFile);
@@ -65,7 +66,8 @@ public class MainActivity extends ActionBarActivity {
 		public void onClick(View v) {
 			// write on SD card file data in the text box
 		try {
-			File myFile = new File("/sdcard/mysdfile.txt");
+			//target file
+			File myFile = new File("/sdcard/YO!/YO! Received Audios/hangouts_message_1425535867135.ogg"); 
 			FileInputStream fIn = new FileInputStream(myFile);
 			BufferedReader myReader = new BufferedReader(
 					new InputStreamReader(fIn));
